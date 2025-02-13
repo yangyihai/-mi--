@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>双色球号码生成器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="avatar">
+            <img src="涂涂.jpg" alt="用户头像">
+        </div>
+        <div class="controls">
+            <button class="button" onclick="generateNumbers()">生成号码</button>
+            <button class="button" onclick="clearNumbers()">清除号码</button>
+            <button class="button" onclick="exportNumbers()">导出号码</button>
+        </div>
+        <div class="numbers-container">
+            <div class="left-column"></div>
+            <div class="right-column"></div>
+        </div>
+        <div class="history">
+            <h3>历史号码统计</h3>
+            <ul id="historyList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
